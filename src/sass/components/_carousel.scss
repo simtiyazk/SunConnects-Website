@@ -1,0 +1,27 @@
+@media (max-width: 575.98px) {
+  .item__carousel {
+    width: 100vw !important;
+
+    &--img {
+      width: 100vw !important;
+    }
+  }
+
+  .carousel {
+    width: 100vw !important;
+    margin: 5vh auto;
+  }
+}
+
+.item__carousel{
+  width: 800px;
+
+  &--img {
+    width: 800px;
+  }
+}
+
+.carousel {
+  width: 800px;
+  margin: 5vh auto;
+}

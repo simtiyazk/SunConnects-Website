@@ -1,0 +1,115 @@
+@keyframes bg-transition1 {
+  0% {opacity:1; background-image: url('../../assets/images/hero/hero1.png')}
+  12% {opacity:1; background-image: url('../../assets/images/hero/hero1.png')}
+  25% {opacity:0; background-image: url('../../assets/images/hero/hero1.png')}
+  37% {opacity:0; background-image: url('../../assets/images/hero/hero3.png')}
+  50% {opacity:1; background-image: url('../../assets/images/hero/hero3.png')}
+  62% {opacity:1; background-image: url('../../assets/images/hero/hero3.png')}
+  75% {opacity:0; background-image: url('../../assets/images/hero/hero3.png')}
+  87% {opacity:0; background-image: url('../../assets/images/hero/hero1.png')}
+  100% {opacity:1; background-image: url('../../assets/images/hero/hero1.png')}
+}
+
+@keyframes bg-transition2 {
+  0% {opacity:0; background-image: url('../../assets/images/hero/hero4.png')}
+  12% {opacity:0; background-image: url('../../assets/images/hero/hero2.png')}
+  25% {opacity:1; background-image: url('../../assets/images/hero/hero2.png')}
+  37% {opacity:1; background-image: url('../../assets/images/hero/hero2.png')}
+  50% {opacity:0; background-image: url('../../assets/images/hero/hero2.png')}
+  62% {opacity:0; background-image: url('../../assets/images/hero/hero4.png')}
+  75% {opacity:1; background-image: url('../../assets/images/hero/hero4.png')}
+  87% {opacity:1; background-image: url('../../assets/images/hero/hero4.png')}
+  100% {opacity:0; background-image: url('../../assets/images/hero/hero4.png')}
+}
+
+.hero{
+  height: 450px;
+
+  .hero-mobile{
+    background: url('../../assets/images/hero/hero-mobile.png');
+    background-position: top !important;
+  }
+
+  .hero-desk{
+    position: relative;
+
+    &::after {
+      background-image: url('../../assets/images/hero/hero1.png'), url('../../assets/images/hero/hero2.png'), url('../../assets/images/hero/hero3.png'), url('../../assets/images/hero/hero4.png');
+      content: "";
+      top: 0;
+      left: 0;
+      bottom: 0;
+      right: 0;
+      position: absolute;
+      z-index: -1;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      animation: bg-transition1 40s infinite;
+    }
+
+    &::before {
+      background-image: url('../../assets/images/hero/hero1.png'), url('../../assets/images/hero/hero2.png'), url('../../assets/images/hero/hero3.png'), url('../../assets/images/hero/hero4.png');
+      content: "";
+      top: 0;
+      left: 0;
+      bottom: 0;
+      right: 0;
+      position: absolute;
+      z-index: -1;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      animation: bg-transition2 40s infinite;
+    }
+  }
+
+  .hero-image {
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    .hero-text{
+      top: 50%;
+      .title-hero{
+        font-size: 46px;
+        color: $color-white;
+      }
+      .sub-hero{
+        font-size: $size-f-20;
+        color: $color-white;
+        line-height: 30px;
+        letter-spacing: 0.272043px;
+        width: 55%;
+        padding-right: 100px;
+      }
+    }
+  }
+  @include respond(phone) {
+    .hero-image {
+      .hero-text{
+        .title-hero{
+          margin-top: 10%;
+          width: 320px;
+          font-size: $size-f-42;
+          line-height: 50px;
+          letter-spacing: 0.233538px;
+        }
+        .sub-hero{
+          margin-top: 0;
+          width: 300px;
+          line-height: 25px;
+          letter-spacing: 0.272043px;
+          padding-right: 0px;
+        }
+      }
+    }
+  }
+}
+
+@include responde-phone {
+  .hero{
+    height: 315px;
+  }
+}

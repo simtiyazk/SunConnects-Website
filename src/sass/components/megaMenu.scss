@@ -1,0 +1,72 @@
+.megaMenu{
+  margin-top: 30px;
+  .border-itemMenu{
+    border-top: 1px solid $color-gray-30;
+    padding: 14px 0 0 40px;
+  }
+  .item{
+    color: $color-sun-dark-blue-2;
+    font-size: $size-f-16;
+    line-height: 24px;
+    letter-spacing: -0.32px;
+    width: 100%;
+  }
+  .icon-menu-r{
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    left: 0;
+  }
+  .menuFixPos{
+    width: 36px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+    height: 43px;
+    left: 0px
+  }
+  .menu-back{
+    padding: 14px 0 0 40px;
+  }
+  .subMenu-title{
+    padding: 8px 0 0 12px;
+    color: $color-sun-dark-blue;
+    font-size: $size-f-20;
+    line-height: 30px;
+    letter-spacing: 0.272043px;
+  }
+  .pos-rel{
+    position: relative;
+    display: block;
+    clear: both;
+  }
+
+  .navbar-nav {
+    transition: all 0.5s ease;
+    height: auto;
+    padding: 0px;
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+
+    &.level-1{
+      min-height: 45px;
+      margin-left: 0px;
+      }
+    }
+
+    &.level-2{
+      left: 100%;
+      min-height: 45px;
+      margin-left: 0px;
+      li{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        min-height: 43px;
+      }
+    }
+}

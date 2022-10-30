@@ -1,0 +1,228 @@
+.absoricaText{
+  color: $color-absorica-1;
+  font-family: $default-f-familiy;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 31px;
+  line-height: 38px;
+  letter-spacing: 0.279018px;
+  text-align: center;
+  margin-bottom: 24px;
+}
+
+
+.absorica-page{
+  .hero-brand{
+    .sub-hero{
+      width: 100%;
+      padding: 0 10px;
+      strong{
+        font-size: $size-f-12;
+      }
+      .subUnderText{
+        font-weight: normal;
+        font-size: $size-f-12;
+        line-height: 18px;
+        /* or 150% */
+
+        letter-spacing: -0.07px;
+      }
+    }
+  }
+
+  .img-ab{
+    width: 110%;
+    max-width: 340px;
+    transform: translateX(-5%);
+  }
+
+  sup.sup-star.hang {
+    margin: 0 0 0 -4px;
+    top: -2px;
+  }
+
+  .paragraph{
+    font-family: $default-f-familiy;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+    width: 100%;
+    letter-spacing: -0.32px;
+    color: $color-gray-70;
+    flex: none;
+    order: 0;
+    align-self: flex-start;
+
+    span, a{
+      color:   $color-absorica-1;
+
+      &.black{
+        color: $color-gray-70;
+        text-decoration: none !important;
+      }
+
+      &.bold{
+        font-weight: 600;
+      }
+    }
+
+    a{
+      font-weight: 600;
+    }
+    .coverMed{
+      font-weight: normal;
+    }
+
+    &.black-sec{
+      font-weight: 600;
+    }
+
+    &.pr-24{
+      padding-right: 8px;
+      &.cv-med{
+        padding-right: 0px;
+      }
+      @media screen and (min-width:768px){
+        padding-right: 24px;
+        &.cv-med{
+          padding-right: 24px;
+        }
+      }
+    }
+
+    &.ie11{
+      max-width: 525px;
+    }
+
+    &.w-540{
+      max-width: 540px;
+    }
+
+    &.cvmed-2{
+      /* Body Small 600 */
+      font-style: normal;
+      font-weight: 600;
+      font-size: 14px;
+      line-height: 21px;
+      /* identical to box height, or 150% */
+
+      letter-spacing: -0.154px;
+
+      /* Gray/70 */
+
+      color: $color-gray-70;
+    }
+
+    &.pr-4-mb{
+      padding-right: 4px;
+    }
+
+    &.reference{
+      /* Caption */
+      font-style: normal;
+      font-weight: normal;
+      font-size: 12px;
+      line-height: 18px;
+      /* or 150% */
+      margin-left: 0px;
+      letter-spacing: -0.18px;
+      padding-right: 0px;
+
+      &.pr-4mb{
+        padding-right: 4px;
+      }
+
+      @media screen and (min-width:768px){
+        letter-spacing: -0.07px;
+        padding-right: 25px;
+      }
+    }
+  }
+
+  .referenceLast{
+    max-width: 90%;
+    margin-left: 0px;
+    margin-top: 20px;
+    margin-bottom: 80px;
+    font-weight: bold;
+
+    @media screen and (min-width:768px){
+      max-width: 600px;
+      margin-left: 18px;
+    }
+  }
+
+
+  .button-link.big {
+    width: 260px;
+  }
+  .numbers{
+    list-style: none;
+    counter-reset: li;
+    padding-left: 28px;
+    li{
+      counter-increment: li;
+      font-family: $default-f-familiy;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 16px;
+      line-height: 22px;
+      /* or 137% */
+      color: $color-absorica-1;
+      letter-spacing: -0.154px;
+      position: relative;
+
+      p{
+        color: inherit;
+        transform: translateY(-2px);
+        margin-left: 8px;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 21px;
+        padding-right: 20px;
+
+        &.two-sings{
+          margin-bottom: 4px;
+          transform: translate(0px);
+          a{
+
+          }
+        }
+      }
+
+      a{
+        p{
+          margin: 0px;
+          transform: translateY(0px);
+          padding-right: 0px;
+          font-size: 16px;
+          line-height: 22px;
+          letter-spacing: -0.32px;
+          color: white;
+        }
+      }
+
+      &::before {
+        content: counter(li)'. ';
+        color: $color-absorica-1;
+        position: absolute;
+        left: 0px;
+        width: 1em;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 21px;
+        /* identical to box height, or 87% */
+
+        letter-spacing: -0.154px;
+
+
+        margin-left: -1em}
+    }
+  }
+}
+.move-r{
+  margin-left: 8px;
+}

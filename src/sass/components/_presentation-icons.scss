@@ -1,0 +1,165 @@
+.presentation-icons{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  max-width: 215px;
+  margin: auto;
+
+  img{
+    width: 60px;
+    margin-bottom: 20px;
+  }
+
+  h6{
+    color: inherit;
+    font-family: SF Pro Display;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    margin-bottom: 10px;
+    /* identical to box height, or 150% */
+
+    text-align: center;
+    letter-spacing: 0.272043px;
+
+    &.blue{
+      color: #005F83
+    }
+
+    &.blue2{
+      color: #0047BA;
+    }
+
+    &.purple{
+      color: #5F2167;
+    }
+
+    &.red{
+      color: #8A1E41;
+    }
+
+    &.dark-blue{
+      color: #002D61;
+    }
+
+    &.cyan{
+      color: #8FD3FF;
+    }
+
+    &.dark-purple{
+      color:#3E3A64;
+    }
+
+
+     // changed to medicine
+
+    &.absorica{
+
+    }
+
+    &.ilumya{
+
+    }
+
+    &.ultravate{
+
+    }
+
+    &.levulan{
+
+    }
+
+    &.halog{
+
+    }
+
+    &.bromsite{
+
+    }
+
+    &.cequa{
+
+    }
+
+    &.xelpros{
+
+    }
+
+    &.infugem{
+
+    }
+
+    &.odomzo{
+
+    }
+
+    &.yonsa{
+
+    }
+
+    &.drizalma{
+
+    }
+
+    &.ezallor{
+
+    }
+
+    &.kapspargo{
+
+    }
+
+    &.riomet{
+
+    }
+
+  }
+
+  p{
+    /* Body Small 400 */
+
+    font-family: SF Pro Text;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+    /* or 150% */
+
+    text-align: center;
+    letter-spacing: -0.154px;
+
+    color: $color-gray-70;
+
+    span{
+      &.blue{
+        color: #005F83
+      }
+
+      &.blue2{
+        color: #0047BA;
+      }
+
+      &.purple{
+        color: #5F2167;
+      }
+
+      &.red{
+        color: #8A1E41;
+      }
+
+      &.dark-blue{
+        color: #002D61;
+      }
+
+      &.cyan{
+        color: #8FD3FF;
+      }
+
+      &.dark-purple{
+        color:#3E3A64;
+      }
+    }
+  }
+}

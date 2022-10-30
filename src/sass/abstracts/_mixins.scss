@@ -1,0 +1,111 @@
+@mixin clearFix {
+  &::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+}
+
+@mixin gradientText($fromColor, $toColor) {
+  background-image: linear-gradient(
+    to right,
+    $fromColor /*$primary-color-light*/,
+    $toColor /* $primary-color-dark*/
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+@mixin centerElement {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+//Media query
+
+/*
+0-600 phone
+600-900 tablet
+900-1200 tablet land
+1200-1800 normal
+1800-  big desktop
+*/
+
+@mixin responde-phone {
+  @media screen and (max-width: 600px) {
+    @content;
+  }
+}
+
+@mixin respond($breakpoint) {
+  @if $breakpoint==phone {
+    @media screen and (max-width: 37.5em) {
+      @content;
+    }
+  }
+  @if $breakpoint==tab-port {
+    @media screen and (max-width: 56.25em) {
+      @content;
+    }
+  }
+  @if $breakpoint==tab-land {
+    @media screen and (max-width: 75em) {
+      @content;
+    }
+  }
+  @if $breakpoint==big-desktop {
+    @media screen and (min-width: 112.5em) {
+      @content;
+    }
+  }
+}
+
+@mixin hover-active {
+  &:hover {
+    .no-touch & {
+      @content;
+    }
+  }
+  &:active {
+    .touch & {
+      @content;
+    }
+  }
+}
+
+@mixin respond2($breakpoint) {
+  @if $breakpoint== "phone" {
+    @media screen and (min-width: 425px) {
+      @content;
+    }
+  }
+  @if $breakpoint== "tablet" {
+    @media screen and (min-width: 768px) {
+      @content;
+    }
+  }
+  @if $breakpoint== "tablet-large" {
+    @media screen and (min-width: 992px) {
+      @content;
+    }
+  }
+  @if $breakpoint== "desktop" {
+    @media screen and (min-width: 1024px) {
+      @content;
+    }
+  }
+  @if $breakpoint== "desktop-large" {
+    @media screen and (min-width: 1280px) {
+      @content;
+    }
+  }
+}
+
+@mixin negative-sup-margin-left($value) {
+  sup {
+    margin-left: $value;
+  }
+}

@@ -1,0 +1,85 @@
+.autocompleteBox{
+  margin-top: 16px;
+  position: relative;
+  z-index: 1;
+
+  .input-field {
+    max-width: 360px;
+    width: 100%;
+    padding: 12px 28px 12px 46px;
+    margin: 5px 0;
+    display: flex;
+    justify-content: space-between;
+    background: url(../../assets/images/search.svg) no-repeat $color-white 17px center;
+    border: 1px solid $color-gray-50;
+    border-radius: 6px;
+
+    input {
+      font-family: $default-f-familiy;
+      font-size: $size-f-16;
+      line-height: 24px;
+      letter-spacing: -0.32px;
+      color: $color-gray-70;
+      flex-grow: 1;
+      border: 0;
+
+      &:focus {
+        outline: none;
+      }
+    }
+
+    img {
+      display: none;
+
+      @include respond(tab-port) {
+        display: block;
+      }
+    }
+  }
+
+  ul {
+    padding: 24px;
+    max-width: 628px;
+    width: 100%;
+    background: $color-white;
+    border: 1px solid $color-gray-40;
+    box-shadow: 0px 12px 34px rgba(29, 41, 91, 0.32);
+    border-radius: 6px;
+    list-style: none;
+
+    @include respond(tab-port) {
+      padding: 0;
+      border-radius: 0;
+    }
+
+    li {
+      margin-bottom: 18px;
+
+      &:last-child {
+        margin-bottom: 0;
+      }
+
+      @include respond(tab-port) {
+        margin: 0;
+      }
+
+      a{
+        font-size: $size-f-16;
+        line-height: 24px;
+        letter-spacing: -0.32px;
+        color: $color-sun-dark-blue-2;
+        display: block;
+
+        &:hover {
+          text-decoration: none;
+        }
+
+        @include respond(tab-port) {
+          padding: 15px 64px 15px 28px;
+          border-bottom: 1px solid $color-gray-30;
+          background: url(../../assets/images/megaMenu/arrow-r.svg) no-repeat $color-white 93% center;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,20 @@
+.drizalma-page{
+  .mt-special{
+    margin-top: 40px;
+  }
+  .drizalmaText{
+    color: $color-drizalma-1;
+    font-family: $default-f-familiy;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 38px;
+    letter-spacing: 0.279018px;
+    text-align: center;
+    margin-bottom: 24px;
+  }
+
+    @media (max-width: 768px) {
+    }
+
+}

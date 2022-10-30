@@ -1,0 +1,115 @@
+.footer {
+  min-height: 196px;
+  width: 100%;
+  height: auto;
+  position: relative;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  text-align: center;
+  padding: 36px 0 120px;
+  color: #BBBFCE;
+  background: #1D295B;
+  margin: 0 auto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 20px;
+  letter-spacing: -0.078px;
+
+  p{
+    color: #BBBFCE;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 20px;
+    /* or 154% */
+    margin-bottom: 0px;
+    text-align: center;
+    letter-spacing: -0.078px;
+
+    &.l-left{
+      @media screen and (max-width:767px) {
+        text-align: left;
+      }
+    }
+  }
+
+  a{
+    color: #fff;
+  }
+  .foot-mobile-links{display: none;}
+}
+
+@include responde-phone {
+  .footer{
+    text-align: left;
+    padding: 36px 10px;
+    font-size: 12px;
+  }
+  .foot-mobile-links{
+    display: flex !important;
+    flex-direction: column;
+    order: 3;
+    align-self: center;
+    margin: 25px 0 50px;
+
+    a{
+      border-top: 1px solid #5E6685;
+      padding: 15px 0 ;
+      font-size: 13px;
+      line-height: 20px;
+      letter-spacing: -0.078px;
+
+        &:last-child{
+          border-bottom: 1px solid #5E6685;
+        }
+      }
+
+  }
+  .mobil-hide{display: none;}
+}
+
+
+.sub-footer{
+  width: 100%;
+  background-color: #EEEFF1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 152px;
+  padding: 20px 18px;
+
+  @media screen and (min-width: 768px){
+    height: 85px;
+  }
+
+  img{
+    width: 25px;
+    margin-right: 15px;
+    height: 43px;
+  }
+
+  p{
+    font-family: $default-f-familiy;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    /* identical to box height, or 137% */
+    margin-bottom: 0px;
+    text-align: left;
+    letter-spacing: -0.32px;
+
+    /* Gray/80 */
+
+    color: #50555E;
+  }
+
+  .show-mobile{
+    display: none;
+    @media screen and (max-width: 768px){
+      display: block;
+    }
+  }
+}

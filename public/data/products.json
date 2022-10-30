@@ -1,0 +1,183 @@
+{
+  "product": [
+    {
+      "category": "dermatology",
+      "name": "ABSORICA LD<sup>&trade;</sup> (isotretinoin)",
+      "textUnderLogo": "Avoid use during pregnancy. Patients must enroll in the iPLEDGE® Program.",
+      "isiText": "See <a href='https://www.absoricald-hcp.com/Absorica-AbsoricaLD-Prescribing-Info.pdf' target='_new'>full Prescribing Information</a>, including  <strong>BOXED WARNING.</strong>",
+      "pageUrl": "/dermatology/absorica",
+      "logoName": "absorica.svg",
+      "alt": "ABSORICA LD<sup>&trade;</sup> (isotretinoin)"
+    },
+    {
+      "category": "dermatology",
+      "name": "ILUMYA<sup>&reg;</sup> (tildrakizumab-asmn)",
+      "textUnderLogo": null,
+      "isiText": null,
+      "pageUrl": "/dermatology/ilumya",
+      "logoName": "ilumya.svg",
+      "alt": "ILUMYA® (tildrakizumab-asmn)"
+    },
+    {
+      "category": "dermatology",
+      "name": "LEVULAN<sup>&reg;</sup> KERASTICK<sup>&reg;</sup> (aminolevulinic acid HCl)",
+      "textUnderLogo": null,
+      "isiText": null,
+      "pageUrl": "/dermatology/levulan",
+      "logoName": "levulan.svg",
+      "alt": "LEVULAN® KERASTICK® (aminolevulinic acid HCl)"
+    },
+    {
+      "category": "dermatology",
+      "name": "ULTRAVATE<sup>&reg;</sup> (halobetasol propionate) lotion",
+      "textUnderLogo": null,
+      "isiText": null,
+      "pageUrl": "/dermatology/ultravate",
+      "logoName": "ultravate.svg",
+      "alt": "ULTRAVATE® (halobetasol propionate) lotion"
+    },
+    {
+      "category": "dermatology",
+      "name": "HALOG<sup>&reg;</sup> (Halcinonide, USP)",
+      "textUnderLogo": null,
+      "isiText": null,
+      "pageUrl": "/dermatology/halog",
+      "logoName": "halog.svg",
+      "alt": "HALOG® (Halcinonide, USP)"
+    },
+    {
+      "category": "dermatology",
+      "name": "WINLEVI<sup>&reg;</sup> (clascoterone) cream 1%",
+      "textUnderLogo": null,
+      "isiText": null,
+      "pageUrl": "/dermatology/winlevi",
+      "logoName": "winlevi.png",
+      "alt": "Winlevi"
+    },
+    {
+      "category": "ophthalmology",
+      "name": "BROMSITE<sup>&reg;</sup> (bromfenac ophthalmic solution) 0.075%",
+      "textUnderLogo": null,
+      "isiText": null,
+      "pageUrl": "/ophthalmology/bromSite",
+      "logoName": "bromSite.svg",
+      "alt": "BROMSITE® (bromfenac ophthalmic solution) 0.075%"
+    },
+    {
+      "category": "ophthalmology",
+      "name": "CEQUA<sup>&trade;</sup> (cyclosporine ophthalmic solution) 0.09%",
+      "textUnderLogo": null,
+      "isiText": null,
+      "pageUrl": "/ophthalmology/cequa",
+      "logoName": "cequa.svg",
+      "alt": "CEQUA™ (cyclosporine ophthalmic solution) 0.09%"
+    },
+    {
+      "category": "ophthalmology",
+      "name": "XELPROS<sup>&trade;</sup> (latanoprost ophthalmic emulsion) 0.005%",
+      "textUnderLogo": null,
+      "isiText": null,
+      "pageUrl": "/ophthalmology/xelpros",
+      "logoName": "xelpros.svg",
+      "alt": "XELPROS™ (latanoprost ophthalmic emulsion) 0.005%"
+    },
+    {
+      "category": "oncology",
+      "name": "ODOMZO<sup>&reg;</sup> (sonidegib) capsules",
+      "textUnderLogo": "During and for a time after treatment, females should avoid pregnancy and males should use condoms.",
+      "isiText": "See <a href='https://www.odomzo.com/themes/custom/odomzo/global/pdfs/pi.pdf' target='_new'>full Prescribing Information</a>, including  <strong>BOXED WARNING.</strong>",
+      "pageUrl": "/oncology/odomzo",
+      "logoName": "odomzo.svg",
+      "alt": "ODOMZO® (sonidegib) capsules"
+    },
+    {
+      "category": "oncology",
+      "name": "YONSA<sup>&reg;</sup> (abiraterone acetate)",
+      "textUnderLogo": null,
+      "isiText": null,
+      "pageUrl": "/oncology/yonsa",
+      "logoName": "yonsa.svg",
+      "alt": "YONSA® (abiraterone acetate)"
+    },
+    {
+      "category": "all",
+      "name": "DRIZALMA SPRINKLE<sup>&trade;</sup> (duloxetine delayed-release capsules)",
+      "textUnderLogo": "Increased risk of suicidal behavior in pediatric and young adult patients.",
+      "isiText": "See <a href='https://drizalmasprinkle.com/full-prescribing-information/ ' target='_new'>full Prescribing Information</a>, including  <strong>BOXED WARNING.</strong>",
+      "pageUrl": "/all/drizalma-sprinkle",
+      "logoName": "drizalma.svg",
+      "alt": "DRIZALMA SPRINKLE™ (duloxetine delayed-release capsules)"
+    },
+    {
+      "category": "all",
+      "name": "EZALLOR<sup>&trade;</sup> SPRINKLE (rosuvastatin)",
+      "textUnderLogo": null,
+      "isiText": null,
+      "pageUrl": "/all/ezallor",
+      "logoName": "ezallor.svg",
+      "alt": "EZALLOR™ SPRINKLE (rosuvastatin)"
+    },
+    {
+      "category": "all",
+      "name": "KAPSPARGO SPRINKLE<sup>&trade;</sup> (metoprolol succinate)",
+      "textUnderLogo": null,
+      "isiText": null,
+      "pageUrl": "/all/kapspargo",
+      "logoName": "kapspargo.svg",
+      "alt": "KAPSPARGO SPRINKLE™ (metoprolol succinate)"
+    },
+    {
+      "category": "all",
+      "name": "RIOMET ER<sup>&trade;</sup> (metformin hydrochloride for extended-release oral suspension)",
+      "textUnderLogo": "Cases of metformin-associated lactic acidosis have resulted in death, hypothermia, hypotension, and resistant bradyarrhythmias.",
+      "isiText": "See <a href='https://www.riometer.com/Riomet_ER_Final_PI.pdf' target='_new'>full Prescribing Information</a>, including  <strong>BOXED WARNING.</strong>",
+      "pageUrl": "/all/riomet",
+      "logoName": "riomet.svg",
+      "alt": "RIOMET ER™ (metformin hydrochloride for extended-release oral suspension)"
+    }
+  ],
+  "category": [
+    {
+      "name": "Dermatology",
+      "category": "dermatology"
+    },
+    {
+      "name": "Ophthalmology",
+      "category": "ophthalmology"
+    },
+    {
+      "name": "Oncology",
+      "category": "oncology"
+    },
+    {
+      "name": "All Products",
+      "category": "all"
+    }
+  ],
+  "routes": {
+    "home": [
+      "/",
+      "/dermatology",
+      "/oncology",
+      "/ophthalmology",
+      "/all"
+    ],
+    "internal": [
+      "/dermatology/absorica",
+      "/dermatology/ilumya",
+      "/dermatology/levulan",
+      "/dermatology/ultravate",
+      "/dermatology/halog",
+      "/dermatology/winlevi",
+      "/ophthalmology/bromSite",
+      "/ophthalmology/cequa",
+      "/ophthalmology/xelpros",
+      "/oncology/odomzo",
+      "/oncology/yonsa",
+      "/all/drizalma-sprinkle",
+      "/all/ezallor",
+      "/all/kapspargo",
+      "/all/riomet"
+    ]
+  }
+}

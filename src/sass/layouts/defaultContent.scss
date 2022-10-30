@@ -1,0 +1,71 @@
+.connections {
+  text-align: center;
+  margin-bottom: 24px;
+  img{
+    width: 153px;
+    height: auto;
+    margin-top: 18px;
+  }
+
+}
+.right-part{
+
+  .orange-head{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 32px;
+    letter-spacing: 0.277483px;
+    color: #E37925;
+    margin-bottom: 20px;
+  }
+
+  p{
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 22px;
+  letter-spacing: -0.32px;
+  color: $color-gray-70;
+  margin-bottom: 24px;
+  &:last-child{
+    margin-bottom: 116px;
+  }
+  }
+  .p-blue-head{
+    color: #145091;
+    font-weight: 600;
+    margin:0;
+  }
+}
+
+@include responde-phone {
+  .connections {
+    text-align: left !important;
+
+    img{
+      width: 153px !important;
+    }
+  }
+  .right-part{
+    p{
+
+      &:last-child{
+        margin-bottom: 48px;
+      }
+    }
+  }
+}
+
+@include respond(tab-port) {
+
+  .connections {
+
+    img{
+      width: 108px;
+    }
+  }
+
+}
+
+

@@ -1,0 +1,202 @@
+.ilumya-page{
+  .downloadable-resources{
+    margin-top: 100px;
+  }
+  .image-title .subhead-h2{
+    color: $color-ilumya-1;
+  }
+  .copy-w{
+    text-align: center;
+    color: $color-gray-70;
+    margin: 0;
+    max-width: 560px;
+  }
+  .card{
+    p, ul, li{
+      color: $color-gray-70;
+      .purpleSpan{
+        color: $color-ilumya-1;
+        text-decoration: none;
+      }
+      margin-bottom: 0;
+    }
+  }
+  .reference{
+    padding: 10px 0;
+    font-family: $default-f-familiy;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: -0.07px;
+    color: $color-gray-70;
+  }
+  .mb-fix{
+    margin-bottom:36px;
+    p{
+      text-align:center;
+    }
+  }
+  .space-btw{
+    margin-top:130px;
+  }
+  hr{
+    max-width: 960px;
+    width: 90%;
+    margin: auto;
+    height: 1px;
+    background-color: #D8D8D8;
+    border: none;
+
+
+    @media screen and (min-width: 992px){
+      max-width: 960px;
+      width: 100%;
+    }
+
+  }
+  .strong600{
+    font-weight: 600;
+  }
+  .no-pb{
+    margin-bottom: 0;
+  }
+  .purpleLink{
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+    text-align: center;
+    letter-spacing: -0.154px;
+    color: $color-ilumya-1;
+    text-decoration: none;
+    }
+  .blackLink{
+    text-decoration: none;
+    color: $color-gray-70;
+  }
+  .ilumyaText{
+      color: $color-ilumya-1;
+      font-family: $default-f-familiy;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 31px;
+      line-height: 38px;
+      letter-spacing: 0.279018px;
+      text-align: center;
+      margin-bottom: 24px;
+  }
+  h6{
+    color: $color-ilumya-1;
+    font-style: normal;
+    font-weight: 600;
+    font-size: $size-f-20;
+    line-height: 30px;
+    letter-spacing: 0.272043px;
+
+    &.tools-down{
+      font-size: 26px;
+      line-height: 32px;
+    }
+    padding: 6px 0;
+  }
+  .whiteBox{
+    background: white;
+    margin: 10px;
+    box-shadow: 0px 12px 24px rgba(32, 34, 37, 0.1);
+    border-radius: 6px;
+    h6{
+      font-size: $size-f-16;
+      line-height: 22px;
+      letter-spacing: -0.32px;
+      padding: 20px 20px;
+    }
+    .button-link{
+      margin: 28px 40px 0 0;
+    }
+  }
+  .table{
+    background: $color-ilumya-2;
+    border-radius: 7px;
+    text-align: center;
+    padding: 0;
+    .header{
+      background: $color-ilumya-2;
+      color: white;
+      padding: 9px 9px;
+      margin: 2px;
+    }
+    .postHeader{
+      background: linear-gradient(0deg, rgba(130, 82, 137, 0.2), rgba(130, 82, 137, 0.2)), #FFFFFF;;
+      color: $color-ilumya-2;
+      font-weight: 500;
+      font-size: $size-f-11;
+      line-height: 20px;
+      text-align: center;
+      letter-spacing: 0.06px;
+      padding: 9px 9px;
+    }
+    .greyBoxes{
+      color: $color-gray-70;
+      background: $color-gray-20;
+      font-weight: 500;
+      font-size: $size-f-11;
+      line-height: 20px;
+      text-align: center;
+      letter-spacing: 0.06px;
+      padding: 9px 9px;
+
+    }
+    .lightGreyBoxes{
+      color: $color-gray-70;
+      background: white;
+      font-weight: 500;
+      font-size: 10px;
+      line-height: 20px;
+      text-align: center;
+      letter-spacing: 0.06px;
+      padding: 9px 7px;
+      height: 95%;
+    }
+     .borderR{
+        border-radius: 0 0 6px 0;
+      }
+      .borderL{
+        border-radius: 0 0 0 6px;
+      }
+  }
+
+  @media (max-width: 768px) {
+    .copy-w{
+      padding: 0 40px;
+      width: 400px;
+    }
+    .card{
+      p, ul, li{
+        font-size: 16px;
+      }
+      .reference{
+        font-size:12px !important;
+      }
+    }
+    .mb-mob{
+      padding-bottom: 20px;
+    }
+    .fix-pd-mob{
+      padding: 0px;
+    }
+    .whiteBox{
+      .button-link{
+        margin: 0px 46px 0 19px;
+      }
+    }
+    .table .lightGreyBoxes{
+      height: 97%;
+    }
+    .fix-pt-mob{
+        padding-top:30px !important;
+    }
+    .centerImg{
+      text-align:center;
+    }
+  }
+}

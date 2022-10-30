@@ -1,0 +1,158 @@
+.header {
+  .noMargin {
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+  .bottom-orange-separator {
+    border-bottom: 12px solid $color-sun-orange;
+    background: url(../../assets/images/header/curve.png) no-repeat top left;
+    background-size: contain;
+  }
+  .sunlogo {
+    width: 55px;
+    height: 75px;
+    margin: 11px 25px 14px 0;
+  }
+  .sunConn {
+    width: 227px;
+    height: 46px;
+    margin: 34px 0px 20px 0px;
+    // padding-right: 15px;
+  }
+  .separatorLogo {
+    width: auto !important;
+    height: 55px;
+    margin: 12px 18px 0 6px !important;
+  }
+  .text-header {
+    color: $color-gray-70;
+    font-size: $size-f-14;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 21px;
+    letter-spacing: -0.154px;
+    margin: 28px 0 30px 0;
+  }
+  .posSelector {
+    margin-top: 28px;
+    min-width: 100%;
+    @include respond2("tablet") {
+      min-width: 370px;
+    }
+  }
+}
+@include respond2("tablet") {
+  .header {
+    .fixTextRight {
+      position: absolute;
+      right: 0.027%;
+    }
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .header {
+    .centerT {
+      text-align: center;
+    }
+    .sunConn {
+      width: 220px;
+      height: auto;
+    }
+  }
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  .header {
+    .text-header {
+      margin-left: -15px;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .header {
+    .center-mob {
+      align-content: center;
+      text-align: center;
+      display: flex;
+      .orderSize {
+        width: 100%;
+        order: 1;
+      }
+      .order0 {
+        order: 0;
+      }
+    }
+    .productSelector .categoryHeader {
+      margin: 0 4% 0 -10px;
+    }
+    .setDirection {
+      flex-direction: column;
+    }
+    .fixPos-mobile {
+      margin-left: 50% !important;
+      margin-bottom: 5px !important;
+      transform: translateX(-50%);
+    }
+    .bottom-orange-separator {
+      background-image: none;
+      text-align: center;
+      display: flex;
+      flex-direction: column-reverse;
+    }
+    .posSelector {
+      margin-top: 0px;
+    }
+
+    .sunlogo {
+      width: 51.33px;
+      height: 70px;
+      margin-top: 0;
+      margin-bottom: 18px;
+      margin-left: 0;
+    }
+    .sunConn {
+      width: 221.25px;
+      height: 42.41px;
+      margin-right: 0;
+    }
+    .text-header {
+      height: auto;
+      font-size: 12px;
+      line-height: 21px;
+      text-align: center;
+      letter-spacing: -0.132px;
+      margin: 18px 0 12px -8px;
+      transform: translateX(8px);
+    }
+  }
+}
+
+// Scroll to Top
+
+.back-to-top {
+  background: url(../../assets/images/header/Backtotop.png) no-repeat center;
+  background-size: contain;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  float: right;
+  margin: 80px 30px 30px 0;
+  width: 24px;
+  height: 24px;
+  z-index: 110;
+  opacity: 0;
+
+  &:hover {
+    opacity: 0.7;
+  }
+
+  &:focus {
+    outline: none;
+  }
+
+  @include responde-phone {
+    margin: 50px 30px 40px 0;
+  }
+}

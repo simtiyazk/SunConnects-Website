@@ -1,0 +1,145 @@
+.button-link{
+  cursor: pointer;
+
+  .infugem{
+
+
+    p{
+      font-size: 15px;
+    }
+  }
+}
+.pd-64{
+  padding-top: 64px;
+}
+.infugemText{
+    color: $color-infugem-1;
+    font-family: $default-f-familiy;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 31px;
+    line-height: 38px;
+    letter-spacing: 0.279018px;
+    text-align: center;
+    margin-bottom: 24px;
+
+    .card-about{
+      p{
+        text-align: left;
+        font-style: normal;
+        color: #676E79;
+      }
+      .blue{
+        color: $color-infugem-1 !important;
+        font-weight: 600;
+      }
+      h6{
+        text-align: left;
+      }
+      .small.infugem{
+        width: 243px;
+        margin: 12px 0;
+        text-align: center;
+        padding: 0px;
+        justify-content: center;
+        align-self: center;
+
+        p{
+          color: $color-white !important;
+          font-size: 15px;
+          text-align: center;
+        }
+        &:hover{
+          p{
+            color: $color-infugem-1 !important;
+          }
+
+        }
+      }
+      .small.infugem.w-300{
+        width: 263px !important;
+        p{
+          font-size: 15px;
+        }
+      }
+      .pd-20{
+        padding: 0 20px;
+        div{padding: 25px 0 0;}
+        div:last-child{padding: 25px 0 0;}
+
+        @media screen and (max-width: 767px){
+          div:last-child{padding: 15px 0 0;}
+        }
+
+        &.pd-normal{
+          div:last-child{padding: 30px 0 0;}
+
+          @media screen and (max-width: 767px){
+            div:last-child{padding: 25px 0 0;}
+          }
+        }
+      }
+      .pd-30{
+        padding: 0 20px;
+        div{padding-top: 30px;}
+
+      }
+      .pdr-0{
+        padding-right: 0;
+      }
+      .pdl-0{
+        padding-left: 0;
+      }
+      b{
+        font-weight: 600;
+      }
+      .fs-12{
+        font-size: 12px;
+        line-height: 18px;
+        letter-spacing: -0.07px;
+      }
+    }
+
+    .infugem-subtitle{
+      font-style: normal;
+      font-weight: 600;
+      font-size: 16px;
+      line-height: 22px;
+      letter-spacing: -0.32px;
+    }
+    .icon-small{
+      width: 32px;
+      height: 32px;
+      vertical-align: top;
+      float: left;
+    }
+    .subhead-h2{
+      text-align: left;
+    }
+
+    .m-auto{
+      margin: auto;
+      align-self: center;
+    }
+    .pd-0{
+      padding: 0;
+    }
+
+    @include responde-phone {
+      .small.infugem.w-300{
+        width: 243px !important;
+        p{
+          font-size: 12px;
+        }
+      }
+      .pd-64{
+        padding-top: 34px;
+      }
+    }
+}
+.card{
+  display:block;
+  margin-top: 22px;
+}
+
+

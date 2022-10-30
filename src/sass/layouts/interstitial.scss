@@ -1,0 +1,96 @@
+
+.interstitial-popup{
+  display: flex;
+  flex-direction: column;
+  padding: 36px;
+  position: absolute;
+  width: auto;
+  max-width: 480px;
+  height: auto;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+  margin: 20% auto;
+
+}
+
+.modal-dialog{
+  background: #FFFFFF;
+  border: 1px solid #B7BBC2;
+  box-sizing: border-box;
+  box-shadow: 0px 12px 34px rgba(29, 41, 91, 0.32);
+  border-radius: 6px;
+  top: 20%;
+  left: -2px;
+  transform: translateY(-20%);
+  @include respond2('tablet'){
+    left: -10px;
+  }
+  .modal-content{
+    .modal-body{
+      .title{
+        font-family: $secondy-f-familiy !important;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 32px;
+        line-height: 42px;
+        letter-spacing: 0.279018px;
+        color: #1D295B;
+        flex: none;
+        order: 0;
+        align-self: center;
+        text-align: center;
+        padding-top: 20px;
+      }
+      @include respond(tab-port) {
+        .title{
+          font-size: 26px;
+        }
+      }
+      .mid-content{
+        font-style: normal;
+        font-weight: normal;
+        font-size: $size-f-16;
+        line-height: 24px;
+        text-align: center;
+        letter-spacing: -0.32px;
+        color: $color-gray-70;
+        flex: none;
+        order: 0;
+        align-self: center;
+        margin-bottom: 20px;
+        padding-top: 20px;
+      }
+    }
+    .modal-footer{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: row;
+      border: none !important;
+      .btn{
+        width: 100%;
+        padding: 12px 10px;
+        border:solid 1px #145091;
+        font-size: 15px;
+        line-height: 21px;
+        margin-bottom: 15px;
+       }
+      .btn-default{
+        background: white;
+        color:#145091;
+        &:hover{
+          color:#145091;
+        }
+      }
+      .btn-primary{
+        color:#fff !important;
+        background: #145091;
+        &:hover{
+          color:#fff;
+        }
+      }
+    }
+  }
+}
+

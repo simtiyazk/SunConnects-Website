@@ -1,0 +1,101 @@
+.button-link{
+  cursor: pointer;
+}
+.infugemText{
+    color: $color-infugem-1;
+    font-family: $default-f-familiy;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 31px;
+    line-height: 38px;
+    letter-spacing: 0.279018px;
+    text-align: center;
+    margin-bottom: 24px;
+
+    .card-about{
+      p{
+        text-align: left;
+        font-style: normal;
+        color: $color-gray-70;
+      }
+      .blue{
+        color: $color-infugem-1 !important;
+        font-weight: 600;
+      }
+      .small.infugem{
+        width: 243px;
+        margin: 12px 0;
+
+        p{
+          color: $color-white !important;
+        }
+        &:hover{
+          p{
+            color: $color-infugem-1 !important;
+          }
+
+        }
+      }
+      .small.infugem.w-300{
+        width: 300px;
+      }
+      .pd-20{
+        padding: 0 20px;
+        div{padding: 25px 0 0;}
+        div:last-child{padding: 30px 0 0;}
+      }
+      .pd-30{
+        padding: 0 20px;
+        div{padding-top: 30px;}
+
+      }
+      .pdr-0{
+        padding-right: 0;
+      }
+      .pdl-0{
+        padding-left: 0;
+      }
+      b{
+        font-weight: 600;
+      }
+    }
+
+    .infugem-subtitle{
+      font-style: normal;
+      font-weight: 600;
+      font-size: 16px;
+      line-height: 22px;
+      letter-spacing: -0.32px;
+    }
+    .icon-small{
+      width: 32px;
+      height: 32px;
+      vertical-align: top;
+      float: left;
+    }
+    .subhead-h2{
+      text-align: left;
+    }
+
+    .m-auto{
+      margin: auto;
+      align-self: center;
+    }
+    .pd-0{
+      padding: 0;
+    }
+
+    @include responde-phone {
+      .small.infugem.w-300{
+        width: 243px !important;
+        p{
+          font-size: 12px;
+        }
+      }
+    }
+}
+.card{
+  display:block;
+}
+
+

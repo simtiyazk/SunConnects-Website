@@ -1,0 +1,157 @@
+.button-text{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 0px 25px;
+  width: 140px;
+
+  &:hover{
+    text-decoration: none;
+  }
+
+  &.blue{
+    color: #005F83;
+  }
+
+  &.blue2{
+    color: #0047BA;
+  }
+
+  &.purple{
+    color: #5F2167;
+  }
+
+  &.red{
+    color: #8A1E41;
+  }
+
+  &.dark-blue{
+    color: #002D61;
+  }
+
+  &.cyan{
+    color: #8FD3FF;
+  }
+
+  &.dark-red{
+    color: #C84A37;
+  }
+
+  &.dark-purple{
+    color:#3E3A64;
+  }
+
+
+   // changed to medicine
+
+  &.absorica{
+    color:  $color-absorica-1;
+    &:hover{
+      color:  $color-absorica-1;
+    }
+  }
+
+  &.ilumya{
+    color:  $color-ilumya-1;
+    &:hover{
+      color:  $color-ilumya-1;
+    }
+  }
+
+  &.ultravate{
+
+  }
+
+  &.levulan{
+    color:  $color-levulan-1;
+    &:hover{
+      color:  $color-levulan-1;
+    }
+  }
+
+  &.halog{
+
+  }
+
+  &.bromsite{
+
+  }
+
+  &.cequa{
+    color:  $color-cequa-1;
+    &:hover{
+      color:  $color-cequa-1;
+    }
+  }
+
+  &.winlevi{
+    color:  $color-winlevi-1;
+    &:hover{
+      color:  $color-winlevi-1;
+    }
+  }
+
+  &.xelpros{
+
+  }
+
+  &.infugem{
+
+  }
+
+  &.odomzo{
+    color:  $color-odomzo-1;
+    &:hover{
+      color:  $color-odomzo-1;
+    }
+  }
+
+  &.yonsa{
+
+  }
+
+  &.drizalma{
+
+  }
+
+  &.ezallor{
+
+  }
+
+  &.kapspargo{
+
+  }
+
+  &.riomet{
+
+  }
+
+  p{
+    /* Body 600 */
+    color: inherit;
+    font-family: $default-f-familiy;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    /* identical to box height, or 137% */
+    flex-grow: 1;
+    text-align: center;
+    letter-spacing: -0.32px;
+    margin-bottom: 0px;
+    margin-top: 18px;
+    width: 150px;
+    &:hover{
+      text-decoration: none;
+    }
+
+    &.absorica{
+      padding: 0px;
+    }
+
+    &.cequa{
+      width: 192px;
+    }
+  }
+}

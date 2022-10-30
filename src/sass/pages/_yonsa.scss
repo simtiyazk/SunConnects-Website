@@ -1,0 +1,112 @@
+.yonsaPage {
+  @media screen and (max-width: 768px) {
+    .subhead-h2 {
+      font-size: $size-f-20 !important;
+    }
+  }
+  .downloadable-resources {
+    background: #e6fdff;
+  }
+  .yonsa-600 {
+    font-weight: 600;
+  }
+
+  .yonsaText {
+    color: $color-yonsa-1;
+    font-family: $default-f-familiy;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 31px;
+    line-height: 38px;
+    letter-spacing: 0.279018px;
+    text-align: center;
+    margin-bottom: 24px;
+  }
+  .yonsaDR {
+    h6 {
+      color: $color-yonsa-1;
+      font-style: normal;
+      font-weight: 600;
+      font-size: $size-f-26;
+      line-height: 32px;
+      /* identical to box height, or 123% */
+
+      text-align: center;
+      letter-spacing: 0.277483px;
+    }
+    color: $color-yonsa-2;
+  }
+  .yonsaOutColor {
+    color: $color-gray-70;
+    text-align: left;
+  }
+  .card {
+    p {
+      text-align: left;
+      color: $color-gray-70;
+
+      a,
+      b {
+        color: $color-yonsa-1;
+        text-decoration: none;
+      }
+    }
+
+    ul {
+      li {
+        a {
+          color: $color-yonsa-1;
+          text-decoration: none;
+        }
+      }
+    }
+  }
+  .button-resources {
+    p {
+      color: $color-yonsa-2;
+    }
+  }
+  .subtitle {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 24px;
+    /* or 133% */
+    color: $color-gray-70;
+    letter-spacing: -0.32px;
+  }
+
+  .reference {
+    @include negative-sup-margin-left(-4px);
+    color: $color-gray-70;
+    font-style: normal;
+    font-weight: normal;
+    font-size: $size-f-12;
+    line-height: 18px;
+    /* or 150% */
+
+    letter-spacing: -0.07px;
+  }
+  .entireRef {
+    width: 100%;
+    color: $color-gray-70;
+    max-width: 358px;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 0 auto;
+    p {
+      font-style: normal;
+      font-weight: normal;
+      font-size: $size-f-12;
+      line-height: 18px;
+      /* or 150% */
+
+      letter-spacing: -0.07px;
+    }
+
+    @media screen and (min-width: 768px) {
+      max-width: 640px;
+      width: 640px;
+    }
+  }
+}

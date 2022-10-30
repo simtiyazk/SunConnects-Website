@@ -1,0 +1,66 @@
+.xelpros-page{
+    .xelprosText{
+      color: $color-xelpros-1;
+      font-family: $default-f-familiy;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 26px;
+      line-height: 38px;
+      letter-spacing: 0.279018px;
+      text-align: center;
+      margin-bottom: 24px;
+
+      .note-p{
+        text-align: left;
+        color: $color-gray-70;
+      }
+
+      .m-auto{
+        margin: auto;
+      }
+      .pd-24{
+        padding: 24px;
+        padding-bottom: 0;
+      }
+      .circle-image.small{
+        width: 100%;
+        justify-content:left;
+        align-self: flex-start;
+      }
+      .circle-image.small img{
+        width: 58%;
+      }
+
+      @media (max-width: 768px) {
+        .circle-image.small img{
+          width: 100%;
+        }
+        .pd-24{
+          padding: 10px;
+          padding-bottom: 0;
+        }
+      }
+  }
+  .box-para{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: -0.32px;
+    color: #0082CA;
+    text-align: left;
+    padding: 24px;
+    border: 1px solid #0082CA;
+    box-sizing: border-box;
+    border-radius: 6px;
+  }
+  .card{
+    display:block;
+  }
+  @media (max-width: 768px) {
+    .w-486 {
+      width: 100% !important;
+    }
+  }
+
+}

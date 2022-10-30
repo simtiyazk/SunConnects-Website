@@ -1,0 +1,210 @@
+.circle-image {
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: none;
+
+  &.blue {
+    border: 2px solid #005f83;
+    &:hover {
+      background-color: #005f83;
+    }
+  }
+
+  &.blue2 {
+    border: 2.47059px solid #0047ba;
+    &:hover {
+      background-color: #0047ba;
+    }
+  }
+
+  &.purple {
+    border: 2px solid #5f2167;
+    &:hover {
+      background-color: #5f2167;
+    }
+  }
+
+  &.ultravate {
+    border: 2px solid #8a1e41;
+    &:hover {
+      background-color: #8a1e41;
+    }
+  }
+
+  &.dark-blue {
+    border: 2px solid #002d61;
+    &:hover {
+      background-color: #002d61;
+    }
+  }
+
+  &.halogCircle {
+    border: 2px solid #8fd3ff;
+    &:hover {
+      background-color: #8fd3ff;
+    }
+  }
+
+  &.bromsiteCircle {
+    border: 2px solid #3e3a64;
+    &:hover {
+      background-color: #3e3a64;
+    }
+  }
+  &.infugemCircle {
+    border: 2px solid $color-infugem-1;
+    &:hover {
+      background-color: $color-infugem-1;
+    }
+  }
+  &.riometCircle {
+    border: 2px solid $color-riomet-1;
+    &:hover {
+      background-color: $color-riomet-1;
+    }
+  }
+
+  &.dark-purple {
+    border: 2px solid #3e3a64;
+    &:hover {
+      background-color: #3e3a64;
+    }
+  }
+
+  // changed to medicine
+
+  &.absorica {
+    border: 2px solid $color-absorica-1;
+  }
+
+  &.ilumya {
+    border: 2px solid $color-ilumya-1;
+  }
+
+  &.ultravate {
+  }
+
+  &.levulan {
+    border: 2px solid $color-levulan-1;
+  }
+
+  &.halog {
+  }
+
+  &.bromsite {
+  }
+
+  &.cequa {
+    border: 2px solid $color-cequa-1;
+  }
+
+  &.xelpros {
+  }
+
+  &.infugem {
+  }
+  &.cequa {
+    border: 2px solid $color-cequa-1;
+    &:hover {
+      background-color: $color-cequa-1;
+    }
+  }
+  &.winlevi {
+    border: 2px solid $color-winlevi-1;
+    &:hover {
+      background-color: $color-cequa-1;
+    }
+  }
+  &.odomzo {
+    border: 2px solid $color-odomzo-1;
+    &:hover {
+      background-color: $color-odomzo-1;
+    }
+  }
+
+  &.bigger {
+    width: 140px;
+    height: 140px;
+    border-width: 2.5px;
+
+    img {
+      width: 45%;
+    }
+  }
+
+  &.big {
+    width: 140px;
+    height: 140px;
+    border-width: 2.5px;
+
+    &.absorica {
+      &.upper {
+        img {
+          width: 48%;
+        }
+      }
+
+      &:hover {
+        background-color: #005f83;
+        color: #005f83 !important;
+        p {
+          color: #005f83;
+        }
+      }
+    }
+
+    &.cequa {
+      border: 2px solid $color-cequa-1;
+      &:hover {
+        background-color: $color-cequa-1;
+      }
+    }
+    &.winlevi {
+      border: 2px solid $color-winlevi-1;
+      &:hover {
+        background-color: $color-cequa-1;
+      }
+    }
+    &.ilumya {
+      border: 2px solid $color-ilumya-1;
+      &:hover {
+        background-color: $color-ilumya-1;
+      }
+    }
+
+    &.levulan {
+      border: 2px solid $color-levulan-1;
+      &:hover {
+        background-color: $color-levulan-1;
+      }
+    }
+
+    img {
+      width: 40%;
+    }
+  }
+
+  &.small {
+    width: 64px;
+    height: 64px;
+
+    &.w35 {
+      img {
+        width: 35px;
+      }
+    }
+
+    &.w37.pd-1 {
+      img {
+        width: 37px;
+        padding-top: 4px;
+      }
+    }
+
+    img {
+      width: 30px;
+    }
+  }
+}

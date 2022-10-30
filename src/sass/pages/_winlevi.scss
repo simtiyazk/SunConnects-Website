@@ -1,0 +1,855 @@
+.winlevi-page{
+
+  a{cursor: pointer;}
+  background-color: #F8F9FB;
+
+  sup.sup-star.hang {
+    margin: 0 0 0 -4px;
+    top: -2px;
+  }
+
+  .copay-card-ceq{
+    max-width: 400px;
+    max-height: 260px;
+    margin-right: 20px;
+    width: 100%;
+    height: auto;
+
+    @media screen and (max-width: 600px){
+      max-height: 210px;
+    }
+  }
+
+  .copay-card-ceq-2{
+    max-width: 540px;
+    max-height: 406px;
+    width: 100%;
+    margin: 24px auto;
+    display: none;
+    @media screen and (min-width: 768px) {
+      display: block;
+    }
+  }
+
+  .copay-card-ceq-3{
+    max-width: 540px;
+    width: 95%;
+    box-shadow: 0px 10px 30px rgba(32, 34, 37, 0.08);
+    display: none;
+    margin: 24px auto;
+    @media screen and (max-width: 768px) {
+      display: block;
+    }
+  }
+
+  .pd-box-parent{
+    border-radius: 10px;
+    width: 100%;
+    background: #e7f3f1;
+    margin: 3rem auto;
+    padding: 17px;
+
+    .pd-box {
+      padding: 20px;
+      border-bottom: dotted 1px;
+
+      .icons-left {
+        width: 100%;
+        max-width: 50px;
+        height: auto;
+        align-self: center;
+        margin: 10px 23px 10px 0;
+      }
+      p{
+        width: 84%;
+        align-self: center;
+        margin-bottom: 0;
+        color: #0075bc;
+        a {
+          color: #31539e;
+        }
+      }
+      &:last-child {
+        border-bottom: none;
+      }
+    }
+  }
+
+  .pharma-box{
+    border-radius: 10px;
+    width: 100%;
+    margin: 3rem auto 0 auto;
+    // background: #fff;
+    // padding: 17px;
+
+    .logo-left-pharma {
+      width: 100%;
+      max-width: 170px;
+      margin: 0 auto 1.6rem auto;
+    }
+
+    .pd-box {
+      width: 100%;
+      padding: 0px 10px 20px;
+      border-bottom: dotted 1px #676E79;
+      margin-bottom: 2.2rem;
+
+      .icons-left {
+        width: 100%;
+        max-width: 40px;
+        height: auto;
+        align-self: center;
+        margin: 10px 23px 10px 0;
+      }
+      p{
+        width: 100%;
+        align-self: center;
+        margin-bottom: 0;
+
+      }
+      &:last-child {
+        border-bottom: none;
+      }
+    }
+    .rationale {
+
+      li{
+        &.hyphen {
+          text-align: left;
+          margin-left: 18px;
+          text-indent: -8px;
+        }
+        &::before {
+          content: "–";
+          color: #676e79;
+          margin-right: 8px;
+          transform: translateY(-1px);
+          display: inline-block;
+        }
+      }
+    }
+    p {
+      &.blue {
+        color: #0047BA;
+      }
+      &.mt-3 {
+        margin-top: 3rem !important;
+        margin-bottom: 1rem;
+      }
+    }
+
+  }
+
+
+
+  .card-winlevi{
+    background-color: #F8F9FB;
+    padding: 20.5px;
+    margin-top: 24px;
+
+
+    h2.h2-winlevi {
+      font-family: $secondy-f-familiy;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 20px;
+      line-height: 30px;
+      /* identical to box height, or 150% */
+      letter-spacing: 0.272043px;
+      color: $color-winlevi-1;
+      margin-bottom: 10px;
+    }
+
+    .logo-cmm {
+      width: 130px;
+    }
+
+    p{
+
+      font-family: $default-f-familiy;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 16px;
+      line-height: 22px;
+      /* identical to box height, or 137% */
+
+      letter-spacing: -0.32px;
+
+      color: $color-gray-70;
+
+      &.blue-small{
+        font-family: $default-f-familiy;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 21px;
+        /* identical to box height, or 150% */
+
+        text-align: center;
+        letter-spacing: -0.154px;
+
+        color: #0047BA;
+      }
+
+      &.fz-18 {
+        font-size: 18px;
+      }
+
+      &.pad-r-8{
+        padding-right: 8px;
+      }
+
+      &.pad-r-16{
+        padding-right: 16px;
+      }
+
+      &.pad-l-8{
+        padding-left: 8px;
+      }
+
+      &.pad-40{
+        padding-right: 4px;
+        @media screen and (min-width: 768px){
+          padding-right: 40px;
+        }
+      }
+
+      &.reference{
+        /* Caption */
+        font-style: normal;
+        font-weight: normal;
+        font-size: 12px;
+        line-height: 18px;
+        /* or 150% */
+        margin-left: 0px;
+        letter-spacing: -0.18px;
+        padding-right: 0px;
+
+        &.pr-4mb{
+          padding-right: 4px;
+        }
+
+        &.pl-8{
+          padding-left: 8px;
+          padding-right: 0px;
+          @media screen and (min-width:768px){
+            padding-right: 8px;
+          }
+        }
+
+
+
+        @media screen and (min-width:768px){
+          letter-spacing: -0.07px;
+          padding-right: 25px;
+        }
+      }
+
+      &.terms{
+        font-family: $default-f-familiy;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 24px;
+        /* identical to box height, or 150% */
+
+        letter-spacing: -0.32px;
+
+        color: $color-gray-70;
+      }
+
+      &.blue {
+        color: $color-winlevi-1;
+      }
+    }
+
+    .numbers{
+      list-style: none;
+      counter-reset: li;
+      padding-left: 28px;
+      li{
+        counter-increment: li;
+        font-family: $default-f-familiy;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 22px;
+        /* or 137% */
+        color:$color-gray-70;
+        letter-spacing: -0.154px;
+        position: relative;
+
+        p{
+          color: inherit;
+          transform: translateY(0px);
+          margin-left: 8px;
+          font-style: normal;
+          font-weight: 600;
+          font-size: 14px;
+          line-height: 21px;
+          padding-right: 30px;
+
+          &.more-tex{
+            /* Body Small 400 */
+          margin: 0px 0px 13px;
+          font-family:$default-f-familiy;
+          font-style: normal;
+          font-weight: normal;
+          font-size: 14px;
+          line-height: 21px;
+          /* or 150% */
+          padding-right: 4px;
+          letter-spacing: -0.154px;
+
+          color: $color-gray-70;
+          }
+        }
+
+        a{
+          p{
+            margin: 0px;
+            transform: translateY(0px);
+            padding-right: 0px;
+            font-weight: normal;
+            font-size: 16px;
+            line-height: 22px;
+            letter-spacing: -0.32px;
+          }
+        }
+
+        &::before {
+          content: counter(li)'. ';
+          color: $color-cequa-1;;
+          position: absolute;
+          left: 0px;
+          width: 1em;
+          font-style: normal;
+          font-weight: 600;
+          font-size: 24px;
+          line-height: 21px;
+          /* identical to box height, or 87% */
+
+          letter-spacing: -0.154px;
+
+
+          margin-left: -1em}
+      }
+    }
+
+    .normal-dot{
+      span{
+        color: $color-cequa-1;
+      }
+
+      &.pad-40{
+        padding-right: 4px;
+        @media screen and (min-width: 768px){
+          padding-right: 40px;
+        }
+      }
+    }
+
+    .covermeds-logo {
+      color: #F37922;
+      font-weight: 500;
+      font-family: tahoma;
+      span {
+        color: #EE155B;
+      }
+      sup {
+        font-size: 30%;
+        top: -1.2em;
+      }
+    }
+
+    .mob-wrap-copy {
+      word-break: break-all;
+      @media screen and (min-width: 768px){
+        word-wrap: normal;
+
+      }
+    }
+  }
+  .winleviText{
+    color: $color-winlevi-1;
+    font-family: $default-f-familiy;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 31px;
+    line-height: 38px;
+    letter-spacing: 0.279018px;
+    text-align: center;
+    margin-bottom: 24px;
+    &.image-title{
+      @media screen and (max-width: 768px){
+        align-items: center;
+      }
+    }
+
+    &.mt-text{
+      margin-top: 48px;
+    }
+  }
+  h2.sub-winlevi{
+    /* H4 */
+    font-family: $secondy-f-familiy;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 31px;
+    line-height: 38px;
+    /* or 123% */
+    margin: auto;
+    text-align: center;
+    letter-spacing: 0.279018px;
+    max-width: 532px;
+    color: $color-cequa-1;
+    padding: 0 40px;
+
+    span{
+      color: $color-cequa-2;
+    }
+
+    sup{
+      top: -5px;
+    }
+  }
+
+  .row-1{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    @media screen and (min-width: 1280px){
+      width: 100%;
+      margin: auto;
+    }
+
+    p.rr{
+      font-family: $default-f-familiy;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 16px;
+      line-height: 24px;
+      /* identical to box height, or 150% */
+      margin: 20px 6px 30px;
+      letter-spacing: -0.32px;
+      border: solid 1px;
+      padding: 10px;
+      border-radius: 50%;
+      background: #0047BA;
+      color: $color-white;
+
+      @media screen and (min-width: 992px){
+        margin: 0px 20px 0px;
+      }
+
+    }
+    .card-body {
+      background: #e7f3f1;
+      color: #0047BA;
+      margin-top: 6px;
+      padding: 6px 0 12px 0;
+    }
+  }
+
+  .winlevi-card{
+    width: 90%;
+    padding: 0px;
+    background: transparent;
+    // box-shadow: 0px 12px 24px rgba(32, 34, 37, 0.1);
+    border-radius: 6px;
+    text-align: center;
+    border: 0px;
+    margin-top: 0;
+    margin-bottom: 20px;
+
+    @media screen and (min-width: 411px){
+      max-width: 139px;
+    }
+
+    @media screen and (min-width: 768px){
+      max-width: 235px;
+      width: 100%;
+      margin: 0 0 30px 0;
+    }
+
+    &:first-of-type{
+      .card-header{
+
+        @media screen and (min-width: 411px){
+          padding: 15px 0px;
+        }
+
+        @media screen and (min-width: 1280px){
+          padding: 16px 0px;
+        }
+      }
+    }
+
+    .card-header{
+      background-color: #d3e9e8;
+      color: #0047BA;
+      border: 0px;
+      border-top-left-radius: 6px;
+      border-top-right-radius: 6px;
+      font-family: $default-f-familiy;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 13px;
+      line-height: 17px;
+      /* or 131% */
+
+      padding: 10px 0px;
+
+      @media screen and (min-width: 411px){
+        padding: .75rem 1.25rem;
+      }
+
+      text-align: center;
+      letter-spacing: -0.078px;
+
+    }
+
+    .card-title{
+      font-family: $default-f-familiy;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 13px;
+      line-height: 17px;
+      /* or 131% */
+      padding: 0px 20px;
+      text-align: center;
+      letter-spacing: -0.078px;
+      color: $color-cequa-1;
+    }
+
+    .card-text{
+
+      font-family: $secondy-f-familiy;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 22px;
+      /* or 122% */
+
+      text-align: center;
+      letter-spacing: 0.162388px;
+
+      color: $color-cequa-1;
+
+      &.number{
+        font-family: $secondy-f-familiy;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 31px;
+        line-height: 38px;
+        margin-bottom: 0;
+        /* identical to box height, or 123% */
+
+        text-align: center;
+        letter-spacing: 0.279018px;
+
+        color: $color-cequa-1;
+
+
+      }
+      span {
+        font-weight: 400;
+        font-size: 18px;
+        position: relative;
+        top: -4px;
+      }
+      .f31 {
+        font-size: 31px;
+      }
+    }
+
+    @media screen and (min-width: 768px){
+      &:first-child {
+        .card-header {
+          border-top-right-radius: 0;
+        }
+      }
+      &:last-child {
+        .card-header {
+          border-top-left-radius: 0;
+        }
+      }
+    }
+
+  }
+
+
+  //blue box
+  .blue-box{
+    border: 1px solid $color-cequa-1;
+    background-color: $color-cequa-1;
+    box-sizing: border-box;
+    border-radius: 6px;
+    padding: 24px;
+    max-width: 540px;
+    margin: 30px auto;
+
+    p{
+      margin-bottom: 0px;
+      text-align: center;
+      font-family: $default-f-familiy;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 16px;
+      line-height: 24px;
+      /* or 150% */
+      color: $color-white;
+      letter-spacing: -0.32px;
+      sup{
+        top: -2px;
+      }
+    }
+  }
+
+
+  //table header
+
+  .row-2{
+    margin: auto;
+    box-shadow: 0px 12px 24px rgba(32, 34, 37, 0.1);
+    .table-header{
+      margin: 0px;
+      padding: 0px;
+      border: none;
+
+      &:first-of-type {
+        .card-header {
+          background-color: $color-winlevi-1;
+          border-top-left-radius: 6px;
+          border-top-right-radius: 6px;
+        }
+      }
+
+      @media screen and (min-width: 768px){
+        width: 50%;
+
+        &:first-of-type{
+          .card-header{
+
+            border-top-left-radius: 6px;
+            border-top-right-radius: 0px;
+            border-right: 1px solid #EEEFF1;
+          }
+
+          .card-body{
+            border-right: 1px solid #EEEFF1;
+          }
+        }
+
+        &:last-of-type{
+          .card-header{
+            border-top-right-radius: 6px;
+            border-left: 1px solid #EEEFF1;
+          }
+
+          .card-body{
+            border-left: 1px solid #EEEFF1;
+          }
+        }
+      }
+
+
+      .card-header{
+        background-color: $color-gray-50;
+        color: #fff;
+        border: 0px;
+        font-family: $default-f-familiy;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 30px;
+        text-align: center;
+        letter-spacing: 0.272043px;
+        padding: 10px 0px;
+        p {
+          color: $color-white;
+        }
+        @media screen and (min-width: 411px){
+          padding: 8px 14px;
+        }
+        text-align: center;
+      }
+
+      .card-body{
+        padding: 17px;
+
+        p{
+          font-family: $default-f-familiy;
+          font-style: normal;
+          font-weight: normal;
+          font-size: 13px;
+          line-height: 17px;
+          /* or 131% */
+          letter-spacing: -0.078px;
+          color: $color-gray-70;
+          margin-bottom: 15px;
+
+          &.italic{
+            font-style: italic;
+          }
+
+          &.strong{
+            font-weight: 600;
+          }
+        }
+
+        li:first-child {
+          margin-bottom: 10px;
+        }
+
+        .normal-dot{
+          font-weight: 600;
+          font-size: 13px;
+          line-height: 17px;
+          /* or 131% */
+          font-family: $default-f-familiy;
+          letter-spacing: -0.078px;
+          color: $color-gray-70;
+          &::before {
+            transform: none;
+          }
+        }
+
+      }
+    }
+  }
+
+
+  .row-3{
+    max-width: 540px;
+    margin: 25px auto 10px;
+    display: flex;
+    box-shadow: 0px 12px 24px rgba(32, 34, 37, 0.1);
+    @media screen and (min-width: 768px){
+      justify-content: center;
+      flex-direction: row;
+      align-items: center;
+
+    }
+
+    .simple-table{
+
+      width: 50%;
+      @media screen and (min-width: 768px){
+        width: 134px;
+        padding: 19px;
+      }
+
+      padding: 24px;
+      border-radius: 0px;
+      border: 0px;
+      margin: 0px;
+      border-left: 1px solid #EEEFF1;
+
+      &:first-of-type{
+        border-left: none;
+      }
+
+
+      &.show-line{
+        border-top: 1px solid #EEEFF1;
+        @media screen and (min-width: 768px){
+          border-top:none;
+        }
+      }
+
+      .card-body{
+        padding: 0px;
+        height: 162px;
+        @media screen and (max-width: 768px){
+          height: 130px;
+        }
+
+        p{
+          font-family:$default-f-familiy;
+          font-style: normal;
+          font-weight: 600;
+          font-size: 13px;
+          line-height: 17px;
+          /* or 131% */
+
+          letter-spacing: -0.078px;
+
+          color: $color-gray-70;
+        }
+      }
+    }
+  }
+
+  .row-4{
+    background-color: #fff;
+    box-shadow: 0px 12px 24px rgba(32, 34, 37, 0.1);
+    max-width: 487px;
+    border-radius: 6px;
+    padding: 8px;
+    @media screen and (min-width: 768px){
+      padding: 24px;
+      padding-left: 0px;
+    }
+
+    p.more-tex{
+      /* Body Small 400 */
+
+      font-family:$default-f-familiy;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+    /* or 150% */
+
+    letter-spacing: -0.154px;
+
+    color: $color-gray-70;
+    }
+  }
+  .entireRef {
+    border-radius: 8px;
+    color: $color-gray-70;
+    margin: 0 auto;
+    max-width: 358px;
+    padding: 20px;
+    width: 100%;
+
+    ul {
+      li {
+        &.normal-dot, &.hypen {
+          &::before {
+            margin-right: 6px;
+          }
+        }
+      }
+    }
+    p {
+      color: $color-gray-70;
+      font-size: $size-f-12;
+      font-style: normal;
+      font-weight: normal;
+      letter-spacing: -0.07px;
+      line-height: 18px;
+      text-align: left;
+    }
+
+    @media screen and (min-width: 768px) {
+      max-width: 640px;
+      width: 640px;
+    }
+  }
+
+  .downloadable-resources {
+    h6 {
+      color: $color-winlevi-1;
+    }
+    .text-section {
+      color: $color-winlevi-1;
+    }
+  }
+
+
+}

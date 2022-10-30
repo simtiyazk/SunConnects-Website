@@ -1,0 +1,38 @@
+.bromsiteText{
+    color: $color-bromsite-1;
+    font-family: $default-f-familiy;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 31px;
+    line-height: 38px;
+    letter-spacing: 0.279018px;
+    text-align: center;
+    margin-bottom: 24px;
+
+    .subhead-h2{
+      text-align: left;
+    }
+
+    .m-auto{
+      margin: auto;
+      align-self: center;
+    }
+    .pd-0{
+      padding: 0;
+    }
+}
+.subtitle{
+  float: left;
+  color: $color-bromsite-1;
+  text-align: left;
+  font-style: normal;
+  font-weight: bold;
+  font-size: $size-f-16;
+  line-height: 22px;
+  letter-spacing: -0.32px;
+}
+.card{
+  display:block;
+}
+
+

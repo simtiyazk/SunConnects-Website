@@ -1,0 +1,52 @@
+.halog-page{
+
+  .halogText{
+      color: $color-halog-1;
+      font-family: $default-f-familiy;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 31px;
+      line-height: 38px;
+      letter-spacing: 0.279018px;
+      text-align: center;
+      margin-bottom: 24px;
+  }
+
+  .subtitle{
+    color: $color-gray-70;
+    font-style: bold;
+    float: left;
+    text-align: left;
+    font-style: normal;
+    font-weight: 600;
+    font-size: $size-f-16;
+    line-height: 22px;
+    letter-spacing: -0.32px;
+  }
+  .reference{
+    font-family: $default-f-familiy;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: -0.07px;
+    color: $color-gray-70;
+    float: left;
+    margin-left: 15px;
+  }
+
+  @media (max-width: 768px) {
+    .button-card{
+      margin: 20px 0;
+    }
+    .subtitle{
+      margin-bottom: 20px;
+    }
+    .reference{
+      margin: 0;
+      float: left;
+      text-align: left;
+    }
+  }
+
+}

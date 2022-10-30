@@ -1,0 +1,426 @@
+.levulan-page{
+
+  background-color: #FFFFFF;
+
+  .card-levulan{
+    background: #FFFFFF;
+    margin: 22px auto;
+  }
+
+  .image-box{
+
+    width: inherit;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 24px 6px;
+
+    @media screen and (min-width: 768px){
+      justify-content: flex-start;
+    }
+
+    img{
+      width: 121px;
+      height: 121px;
+      margin: 0px 4px;
+    }
+  }
+
+  .paragraph{
+    /* Body 600 */
+    font-family: $default-f-familiy;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    /* identical to box height, or 137% */
+
+    letter-spacing: -0.32px;
+
+    /* Gray/70 */
+
+    color: #676E79;
+
+    &.bold{
+      font-weight: 600;
+    }
+
+    &.reference{
+      /* Caption */
+      font-style: normal;
+      font-weight: normal;
+      font-size: 12px;
+      line-height: 18px;
+      /* or 150% */
+      margin-left: 0px;
+      letter-spacing: -0.18px;
+      padding-right: 0px;
+
+      &.pr-4mb{
+        padding-right: 4px;
+      }
+
+      &.pl-8{
+        padding-left: 8px;
+        padding-right: 0px;
+        @media screen and (min-width:768px){
+          padding-right: 8px;
+        }
+      }
+
+
+
+      @media screen and (min-width:768px){
+        letter-spacing: -0.07px;
+        padding-right: 25px;
+      }
+    }
+
+
+    &.pr-10{
+      padding-right: 10px;
+    }
+
+    &.pr-40{
+      @media screen and (min-width:768px){
+        padding-right: 40px;
+      }
+    }
+  }
+
+  .blue-box{
+    border: 1px solid $color-levulan-1;
+    box-sizing: border-box;
+    border-radius: 6px;
+    padding: 24px;
+    max-width: 540px;
+    margin: 30px 0px 0px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+
+    p{
+
+      margin-bottom: 0px;
+      text-align: left;
+      font-family: $default-f-familiy;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 16px;
+      line-height: 24px;
+      /* or 150% */
+      color: $color-levulan-1;
+      letter-spacing: -0.32px;
+      sup{
+        top: -2px;
+      }
+
+      a{
+        color: $color-levulan-1;
+      }
+    }
+  }
+
+
+  .normal-dot{
+    span{
+      color: $color-levulan-1;
+    }
+
+    @media screen and (min-width: 768px){
+      padding-right: 10px;
+    }
+
+    &.pad-40{
+      padding-right: 4px;
+      @media screen and (min-width: 768px){
+        padding-right: 40px;
+      }
+    }
+  }
+
+  .numbers{
+    list-style: none;
+    counter-reset: li;
+    padding-left: 18px;
+    li{
+      counter-increment: li;
+      font-family: $default-f-familiy;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 16px;
+      line-height: 22px;
+      /* or 137% */
+      color: #676E79;
+      letter-spacing: -0.154px;
+      position: relative;
+      margin-bottom: 8px;
+      padding-left: 4px;
+
+      @media screen and (min-width: 768px){
+        padding-right: 20px;
+      }
+
+
+      p{
+        color: inherit;
+        margin-left: 8px;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 21px;
+        padding-right: 20px;
+      }
+
+      a{
+        p{
+          margin: 0px;
+          transform: translateY(0px);
+          padding-right: 0px;
+          font-weight: normal;
+          font-size: 16px;
+          line-height: 22px;
+          letter-spacing: -0.32px;
+          color: white;
+        }
+      }
+
+      &::before {
+        content: counter(li)'. ';
+        color: #676E79;
+        position: absolute;
+        left: 0px;
+        width: 1em;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 22px;
+        /* identical to box height, or 87% */
+
+        letter-spacing: -0.154px;
+
+
+        margin-left: -1em
+      }
+    }
+  }
+
+  .subhead-h2{
+    &.medium{
+      /* H6 */
+
+    font-family: $default-f-familiy;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    /* identical to box height, or 150% */
+      text-align: left;
+    letter-spacing: 0.272043px;
+    margin-bottom: 14px;
+    /* Levulan/1 */
+
+    color: #002D61;
+    }
+  }
+
+
+  .row-2{
+    box-shadow: 0px 12px 24px rgba(32, 34, 37, 0.1);
+    max-width: 540px;
+    margin: auto;
+    background-color: transparent;
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+
+    .table-header{
+      margin: 0px;
+      padding: 0px;
+      border: none;
+
+      &:first-of-type{
+
+        .card-header{
+          border-top-left-radius: 6px;
+          border-top-right-radius: 6px;
+        }
+      }
+
+      @media screen and (min-width: 768px){
+        width: 50%;
+
+        &:first-of-type{
+
+          .card-header{
+            border-top-left-radius: 6px;
+            border-right: 1px solid #EEEFF1;
+            border-top-right-radius: 0px;
+          }
+
+          .card-body{
+            border-bottom-left-radius: 6px;
+            border-right: 1px solid #EEEFF1;
+          }
+        }
+
+        &:last-of-type{
+          .card-header{
+            border-top-right-radius: 6px;
+            border-left: 1px solid #EEEFF1;
+          }
+
+          .card-body{
+            border-left: 1px solid #EEEFF1;
+            border-bottom-right-radius: 6px;
+          }
+        }
+      }
+
+
+      .card-header{
+        background-color: $color-levulan-1;
+        color: #fff;
+        border: 0px;
+        font-family: $default-f-familiy;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 30px;
+        text-align: center;
+        letter-spacing: 0.272043px;
+        padding: 9px 0px;
+        @media screen and (min-width: 411px){
+          padding: 9px 18px;
+        }
+        text-align: center;
+      }
+
+      .card-body{
+        padding: 18px;
+
+
+        @media screen and (min-width: 768px){
+          height: 236px;
+        }
+        p{
+          font-family: $default-f-familiy;
+          font-style: normal;
+          font-weight: normal;
+          font-size: 13px;
+          line-height: 17px;
+          /* or 131% */
+          letter-spacing: -0.078px;
+          color: #676E79;
+          margin-bottom: 15px;
+
+          &.italic{
+            font-style: italic;
+          }
+
+          &.strong{
+            font-weight: 600;
+          }
+        }
+
+        .normal-dot{
+          font-weight: 600;
+          font-size: 13px;
+          line-height: 17px;
+          /* or 131% */
+          font-family: $default-f-familiy;
+          letter-spacing: -0.078px;
+          color: #676E79;
+        }
+
+      }
+    }
+  }
+
+  .small-blue-bpx{
+    /* Body Small 600 */
+    width: 111px;
+    font-family: $default-f-familiy;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 21px;
+    /* identical to box height, or 150% */
+    background-color: #002D61;
+    letter-spacing: -0.154px;
+    border-radius: 4px;
+    text-align: center;
+    height: 25px;
+    line-height: 25px;
+    /* Gray/White */
+
+    color: #FFFFFF;
+  }
+
+  .semi-box{
+    max-width: 486px;
+    min-height: 69px;
+    display: flex;
+    justify-content: space-between ;
+    align-items: center;
+    margin-top: 28px;
+
+    .small-blue-bpx{
+      width: 97px;
+    }
+
+    .l-side{
+
+      max-width: 130px;
+
+      .code{
+        font-family: $default-f-familiy;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 31px;
+        line-height: 38px;
+        /* identical to box height, or 123% */
+        margin-top: 6px;
+        letter-spacing: 0.279018px;
+        /* Levulan/1 */
+        margin-bottom: 0px;
+        color: #002D61;
+      }
+    }
+
+    .r-side{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-left: 1px solid #B7BBC2;
+      margin-left: 20px;
+      padding-left: 20px;
+      height: 100%;
+
+      @media screen and (min-width: 768px){
+        height: 69px;
+      }
+      p{
+        margin-bottom: 0px;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 21px;
+        /* or 150% */
+        font-family: $default-f-familiy;
+        letter-spacing: -0.154px;
+
+        /* Gray/70 */
+
+        color: #676E79;
+      }
+    }
+  }
+
+  .isi-main-wrapper {
+    p{margin: 5px 0 15px;}
+    p.sub-head:first-child{
+      margin:5px 0;
+    }
+  }
+}

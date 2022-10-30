@@ -1,0 +1,551 @@
+.downloadable-resources{
+  text-align: center;
+  padding: 40px 0px;
+  background-color: $color-sun-light-background;
+  &.blue{
+    color: #005F83;
+    background-color: $color-sun-light-background ;
+  }
+
+  &.blue2{
+    color: #0047BA;
+  }
+
+  &.purple{
+    color: #5F2167;
+    background-color: #F8F6FF;
+  }
+
+  &.red{
+    color: #8A1E41;
+    background-color: $color-sun-light-background ;
+
+    &.halog{
+      color: $color-halog-1;
+    }
+  }
+
+  &.bromsite-red{
+
+    background-color: rgba(200, 74, 55, 0.09);
+
+    &.bromsite{
+      background-color: rgba(200, 74, 55, 0.09); ;
+      color: $color-bromsite-1;
+    }
+  }
+
+  &.dark-blue{
+    color: #002D61;
+    background-color: $color-sun-light-background ;
+  }
+
+  &.cyan{
+    color: #8FD3FF;
+    background-color: $color-sun-light-background ;
+  }
+
+  &.dark-purple{
+    color:#3E3A64;
+    background-color: #C84A37;
+  }
+
+  &.green{
+    background-color: #E5FFF9;
+    color: #007054;
+  }
+  &.riometBtn{
+    color:$color-riomet-1;
+  }
+  &.drizalmaBtn{
+    color:$color-drizalma-1;
+  }
+
+
+  // changed to medicine
+
+  &.absorica{
+    color: #005F83;
+    background-color: $color-sun-light-background ;
+  }
+
+  &.ilumya{
+    color: $color-ilumya-1;
+    background-color: #F8F6FF;
+  }
+
+  &.ultravate{
+    color: $color-ultravete-2;
+    background-color: $color-sun-light-background ;
+  }
+
+  &.levulan{
+    color: #002D61;
+    background-color: $color-sun-light-background ;
+  }
+
+  &.halog{
+    color: $color-halog-1;
+    background-color: $color-sun-light-background ;
+  }
+
+  &.bromsite{
+    background-color: #C84A37;
+    color: #3E3A64;
+  }
+
+  &.cequa{
+    background-color: $color-sun-light-background;
+    color : $color-cequa-1;
+  }
+
+  &.winlevi{
+    background-color: $color-sun-light-background;
+    color : $color-cequa-1;
+  }
+
+  &.xelpros{
+    background-color: $color-sun-light-background;
+    color: #0082CA;
+  }
+
+  &.infugem{
+    background-color: $color-infugem-2;
+    color: #435CC8;
+  }
+
+  &.odomzo{
+    background-color: #E5FFF9;
+    color: #007054;
+  }
+
+  &.yonsa{
+    background-color: #E6FDFF;
+    color: $color-yonsa-2;
+  }
+
+  &.drizalma{
+    background-color: $color-sun-light-background;
+    color: #D1006F;
+  }
+
+  &.ezallor{
+    color: $color-ezallor-1;
+  }
+
+  &.kapspargo{
+    color: $color-kaspargo-1;
+  }
+
+  &.riomet{
+    color: $color-riomet-1;
+  }
+  &.drizalma{
+    color: $color-drizalma-1;
+  }
+
+  h6{
+    color: inherit;
+    margin-bottom: 23px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 32px;
+    /* identical to box height, or 123% */
+
+    letter-spacing: 0.277483px;
+  }
+
+  .button-resources{
+    display: flex;
+    flex-direction: row;
+    min-height: 50px;
+    margin-bottom: 16px;
+    p{
+      font-family: $default-f-familiy;
+      font-style: normal;
+      font-weight: 600;
+      font-size: $size-f-16;
+      line-height: 22px;
+      letter-spacing: -0.32px;
+    }
+
+    &.w-600{
+      width: 600px;
+      margin: 0px auto 16px;
+    }
+
+    &.w-560{
+      width: 90%;
+      margin: 0px auto 16px;
+
+      @media screen and (min-width:768px){
+        width: 560px;
+      }
+
+      &.absorica{
+        .text-section{
+          padding: 0px 50px 0px 24px;
+        }
+      }
+
+      .text-section{
+        width: calc(100% - 152px);
+        @media screen and (min-width:768px){
+          width: 560px;
+          width: calc(560px - 152px);
+        }
+        text-align: left;
+      }
+    }
+
+    &.w-486{
+      width: 90%;
+      margin: 0px auto 16px;
+
+      @media screen and (min-width:768px){
+        width: 486px;
+      }
+      .text-section{
+        width: calc(486px - 152px);
+        text-align: left;
+      }
+    }
+
+    &.w-358{
+      @media screen and (max-width:768px){
+        width: auto !important;
+      }
+      width: 358px;
+      margin: 0px auto 16px;
+      .text-section{
+        width: calc(100% - 152px);
+        @media screen and (min-width:768px){
+          width: 358px;
+          width: calc(358px - 152px);
+          text-align: left;
+        }
+      }
+    }
+    &.w-450{
+      @media screen and (max-width:768px){
+        width: auto !important;
+      }
+      width: 450px;
+      margin: 0px auto 16px;
+      .text-section{
+        width: calc(450px - 152px);
+        text-align: left;
+      }
+    }
+
+    .text-section{
+      background-color: #ffffff;
+      display: flex;
+      box-shadow: 0px 0px 16px rgba(32, 34, 37, 0.12);
+      text-align: left;
+      align-items: center;
+      padding: 0px 24px;
+      border-top-left-radius: 6px;
+      border-bottom-left-radius: 6px;
+
+      @media screen and (min-width: 992px){
+        text-align: center;
+      }
+
+      p{
+        margin-bottom: 0px;
+        color: inherit;
+      }
+    }
+    .button-link{
+      width: 152px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: row;
+      border-top-left-radius: 0px;
+      border-bottom-left-radius: 0px;
+      img{
+        width: 15px;
+        margin-left: 10px;
+      }
+      svg {
+        margin-left: 10px;
+        fill:white;
+      }
+
+      &.blue{
+        background-color: $color-absorica-1;
+        &:hover{
+          padding: 0;
+          border: 1px solid $color-absorica-1;
+          background-color: white;
+          p{
+            color: #005F83;
+            text-decoration: none;
+          }
+          svg {
+            fill:$color-absorica-1;
+          }
+        }
+      }
+
+      &.blue2{
+        background-color: #0047BA;
+        &:hover{
+          border: none;
+          background-color: #0047BA;
+          p{
+            color: white;
+            text-decoration: none;
+          }
+        }
+      }
+
+      &.purple{
+        background-color: #5F2167;
+        &:hover{
+          border: none;
+          background-color: #5F2167;
+          p{
+            color: white;
+            text-decoration: none;
+          }
+        }
+      }
+
+      &.red{
+        background-color: #8A1E41;
+        &:hover{
+          border: none;
+          background-color: #8A1E41;
+          p{
+            color: white;
+            text-decoration: none;
+          }
+        }
+      }
+
+      &.dark-blue{
+        background-color: #002D61;
+        &:hover{
+          height: 48px !important ;
+          border: 1px solid #002D61;
+          background-color: white;
+          p{
+            color: #002D61;
+            text-decoration: none;
+          }
+
+          svg {
+            fill:#002D61;
+          }
+        }
+      }
+
+      &.cyan{
+        background-color:  $color-halog-1;
+        &:hover{
+          padding: 0;
+          border: 1px solid $color-halog-1;
+          background-color: white;
+          p{
+            color: $color-halog-1;
+            text-decoration: none;
+          }
+          svg {
+            fill:$color-halog-1;
+          }
+        }
+      }
+
+      &.dark-purple{
+        background-color:#3E3A64;
+        &:hover{
+          border: none;
+          background-color:#3E3A64;
+          p{
+            color: white;
+            text-decoration: none;
+          }
+        }
+      }
+
+      &.cequaButton{
+        background-color:$color-cequa-1;
+        &:hover{
+          padding: 0;
+          border: 1px solid $color-cequa-1;
+          background-color: white;
+          p{
+            color: $color-cequa-1;
+            text-decoration: none;
+          }
+          svg {
+            fill:$color-cequa-1;
+          }
+        }
+      }
+
+      &.winleviButton{
+        background-color:$color-winlevi-1;
+        &:hover{
+          padding: 0;
+          border: 1px solid $color-winlevi-1;
+          background-color: white;
+          p{
+            color: $color-winlevi-1;
+            text-decoration: none;
+          }
+          svg {
+            fill:$color-winlevi-1;
+          }
+        }
+      }
+
+      &.odomzoButton{
+        background-color:$color-odomzo-1;
+        &:hover{
+          padding: 0;
+          border: 1px solid $color-odomzo-1;
+          background-color: white;
+          p{
+            color: $color-odomzo-1;
+            text-decoration: none;
+          }
+          svg {
+            fill:$color-odomzo-1;
+          }
+        }
+      }
+
+      &.rioBtn{
+        background-color:  $color-riomet-1;
+        &:hover{
+          padding: 0;
+          border: 1px solid $color-riomet-1;
+          background-color: white;
+          p{
+            color: $color-riomet-1;
+            text-decoration: none;
+          }
+          svg {
+            fill:$color-riomet-1;
+          }
+        }
+      }
+      &.drizalmaBtn{
+        background-color:  $color-drizalma-1;
+        &:hover{
+          padding: 0;
+          border: 1px solid $color-drizalma-1;
+          background-color: white;
+          p{
+            color: $color-drizalma-1;
+            text-decoration: none;
+          }
+          svg {
+            fill:$color-drizalma-1;
+          }
+        }
+      }
+      &.kapspargoBtn{
+        background-color:  $color-kaspargo-1;
+        &:hover{
+          padding: 0;
+          border: 1px solid $color-kaspargo-1;
+          background-color: white;
+          p{
+            color: $color-kaspargo-1;
+            text-decoration: none;
+          }
+          svg {
+            fill:$color-kaspargo-1;
+          }
+        }
+      }
+
+      &.bromsiteBtn{
+        background-color:  $color-bromsite-2;
+        &:hover{
+          padding: 0;
+          border: 1px solid $color-bromsite-2;
+          background-color: white;
+          p{
+            color: $color-bromsite-1;
+            text-decoration: none;
+          }
+          svg {
+            fill:$color-bromsite-1;
+          }
+        }
+      }
+      &.ezallorBtn{
+        background-color:  $color-ezallor-1;
+        &:hover{
+          padding: 0;
+          border: 1px solid $color-ezallor-1;
+          background-color: white;
+          p{
+            color: $color-ezallor-1;
+            text-decoration: none;
+          }
+          svg {
+            fill:$color-ezallor-1;
+          }
+        }
+      }
+      &.infugemBtn{
+        background-color:  $color-infugem-1;
+        &:hover{
+          padding: 0;
+          border: 1px solid $color-infugem-1;
+          background-color: white;
+          p{
+            color: $color-infugem-1;
+            text-decoration: none;
+          }
+          svg {
+            fill:$color-infugem-1;
+          }
+        }
+      }
+      &.yonsaBtn{
+        background-color:  $color-yonsa-2;
+        p{color: white;}
+        &:hover{
+          padding: 0;
+          border: 1px solid $color-yonsa-2;
+          background-color: white;
+          p{
+            color: $color-yonsa-2;
+            text-decoration: none;
+          }
+          svg {
+            fill:$color-yonsa-2;
+          }
+        }
+      }
+
+      &.ilumyaBtn{
+        background-color: $color-ilumya-1;
+        &:hover{
+          padding: 0;
+          border: 1px solid $color-ilumya-1;
+          background-color: white;
+          p{
+            color: $color-ilumya-1;
+            text-decoration: none;
+          }
+          svg {
+            fill:$color-ilumya-1;
+          }
+        }
+      }
+    }
+
+
+  }
+
+}

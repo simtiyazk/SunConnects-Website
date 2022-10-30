@@ -1,0 +1,37 @@
+.p404-page{
+  .p-page{
+    padding: 94px 0 200px 0;
+    h1{
+        font-style: $secondy-f-familiy;
+        font-weight: 500;
+        font-size: $size-f-42;
+        line-height: 46px;
+        text-align: center;
+        letter-spacing: 0.4px;
+        color: $color-sun-orange;
+    }
+    p{
+      font-weight: 500;
+      font-size: 20px;
+      line-height: 30px;
+      /* or 150% */
+
+      text-align: center;
+      letter-spacing: 0.272043px;
+
+      color: $color-gray-70;
+      a{
+        color: $color-sun-orange;
+      }
+    }
+    @media (max-width: 768px) {
+      h1{
+        font-size: $size-f-26;
+      }
+      p{
+        font-size: $size-f-20;
+      }
+    }
+  }
+
+}

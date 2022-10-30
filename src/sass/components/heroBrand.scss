@@ -1,0 +1,287 @@
+.hero-brand {
+  height: auto;
+  .hero-image {
+    height: auto !important;
+    min-height: 294px;
+    background-position: top center !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    position: relative !important;
+  }
+  .title-hero{
+    margin: 60px 0 0 0;
+    font-size: 43px;
+    line-height: 46px;
+    letter-spacing: 0.4px;
+    color: $color-white;
+    padding: 0px 10px
+  }
+  .sub-hero{
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+    /* or 137% */
+    color: white;
+    letter-spacing: -0.32px;
+    padding: 10px 10px;
+    width: 80%;
+    span{
+      font-weight: normal;
+    }
+  }
+  .logo-brand{
+    padding: 44px 0 0 0;
+  }
+
+  .absoricaBg {
+    background: url(../../assets/images/heroBrand/absorica.png);
+  }
+
+  .bromsiteBg {
+    background: url(../../assets/images/heroBrand/bromsite.png);
+  }
+
+  .cequaBg {
+    background: url(../../assets/images/heroBrand/cequa.png);
+  }
+
+  .winleviBg {
+    background: url(../../assets/images/heroBrand/winlevi.png);
+  }
+
+  .drizalmaBg {
+    background: url(../../assets/images/heroBrand/drizalma.png);
+  }
+
+  .ezallorBg {
+    background: url(../../assets/images/heroBrand/ezallor.png);
+  }
+
+  .halogBg {
+    background: url(../../assets/images/heroBrand/halog.png);
+  }
+
+  .ilumyaBg {
+    background: url(../../assets/images/heroBrand/Ilumya.png);
+  }
+
+  .infugemBg {
+    background: url(../../assets/images/heroBrand/infugem.png);
+  }
+
+  .kapspargoBg {
+    background: url(../../assets/images/heroBrand/kapspargo.png);
+  }
+
+  .levulanBg {
+    background: url(../../assets/images/heroBrand/levulan.png);
+    .title-hero{
+      font-size: 40px;
+    }
+  }
+
+  .odomzoBg {
+    background: url(../../assets/images/heroBrand/odomzo.png);
+  }
+
+  .riometBg {
+    background: url(../../assets/images/heroBrand/riomet.png);
+  }
+
+  .ultravateBg {
+    background: url(../../assets/images/heroBrand/ultravate.png);
+  }
+
+  .xelprosBg {
+    background: url(../../assets/images/heroBrand/xelpros.png);
+  }
+
+  .yonsaBg {
+    background: url(../../assets/images/heroBrand/yonsa.png);
+  }
+
+  .brand-a{
+    margin: 0 6px;
+    min-width: 184px;
+  }
+
+
+  .brand-btn{
+    cursor: pointer;
+    height: 49px;
+    border-radius: 4px 4px 0px 0px;
+    margin: 65px 0px 0 0;
+    bottom: 0;
+    font-style: normal;
+    font-weight: 600;
+    font-size: $size-f-15;
+    line-height: 21px;
+    letter-spacing: -0.24px;
+    text-align: center;
+    padding: 15px 10px 0px;
+  }
+  a:hover{
+    text-decoration: none;
+  }
+
+  // Btn specific color
+  .halog-color{
+    background: $color-halog-2;
+    color: $color-absorica-1; // from another brand same color
+  }
+  .bromsite-color{
+    background: $color-bromsite-2;
+    color: $color-white; // from another brand same color
+  }
+  .xelpros-color{
+    background: $color-xelpros-2;
+    color: $color-white; // from another brand same color
+  }
+  .ultravate-color{
+    background: $color-ultravete-2;
+    color: $color-white; // from another brand same color
+  }
+  .levulan-color{
+    background: $color-levulan-2;
+    color: $color-levulan-1; // from another brand same color
+  }
+  .ilumya-color{
+    background: $color-ilumya-4;
+    color: $color-ilumya-1; // from another brand same color
+  }
+  .absorica-color{
+    background: $color-absorica-2;
+    color: $color-absorica-1;
+  }
+  .cequa-color{
+    background-color:   $color-cequa-2;
+    color: white;
+  }
+  .winlevi-color{
+    background-color: $color-winlevi-2;
+    color: white;
+  }
+  .odomzo-color{
+    background-color:   $color-odomzo-2;
+    color: $color-odomzo-1;
+  }
+  .riomet-color{
+    background: $color-riomet-1;
+    color: $color-white;
+  }
+  .drizalma-color{
+    background: $color-drizalma-1;
+    color: $color-white;
+  }
+  .ezallor-color{
+    background: $color-ezallor-1;
+    color: $color-white;
+  }
+  .kapspargo-color{
+    background: $color-kaspargo-1;
+    color: $color-white;
+  }
+  .infugem-color{
+    background: $color-infugem-3;
+    color: $color-white; // from another brand same color
+  }
+  .yonsa-color{
+    background: $color-yonsa-2;
+    color: $color-white; // from another brand same color
+  }
+  @media (min-width: 769px) {
+    .brand-btn{
+      margin-top: 77px;
+    }
+  }
+
+  @media (max-width: 768px) {
+    h1{
+      margin: 0;
+    }
+    .title-hero{
+      text-align: center;
+      font-size: $size-f-42;
+    }
+    .sub-hero{
+      text-align: center;
+    }
+    .select-section{
+      margin-bottom: 20px;
+      select{
+        height: 40px;
+        font-style: normal;
+        font-weight: normal;
+        font-size: $size-f-16;
+        line-height: 22px;
+        letter-spacing: -0.32px;
+      }
+    }
+    .text-content{
+      margin-bottom: 30px;
+    }
+    .absoricaBg {
+      background: url(../../assets/images/heroBrand/absoricaMob.png);
+    }
+
+    .bromsiteBg {
+      background: url(../../assets/images/heroBrand/bromsiteMob.png);
+    }
+
+    .cequaBg {
+      background: url(../../assets/images/heroBrand/cequaMob.png);
+    }
+
+    .winleviBg {
+      background: url(../../assets/images/heroBrand/cequaMob.png);
+    }
+
+    .drizalmaBg {
+      background: url(../../assets/images/heroBrand/drizalmaMob.png);
+    }
+
+    .ezallorBg {
+      background: url(../../assets/images/heroBrand/ezallorMob.png);
+    }
+
+    .halogBg {
+      background: url(../../assets/images/heroBrand/halogMob.png);
+    }
+
+    .ilumyaBg {
+      background: url(../../assets/images/heroBrand/ilumyaMob.png);
+    }
+
+    .infugemBg {
+      background: url(../../assets/images/heroBrand/infugemMob.png);
+    }
+
+    .kapspargoBg {
+      background: url(../../assets/images/heroBrand/kapspargoMob.png);
+    }
+
+    .levulanBg {
+      background: url(../../assets/images/heroBrand/levulanMob.png);
+    }
+
+    .odomzoBg {
+      background: url(../../assets/images/heroBrand/odomzoMob.png);
+    }
+
+    .riometBg {
+      background: url(../../assets/images/heroBrand/riometMob.png);
+    }
+
+    .ultravateBg {
+      background: url(../../assets/images/heroBrand/ultravateMob.png);
+    }
+
+    .xelprosBg {
+      background: url(../../assets/images/heroBrand/xelprosMob.png);
+    }
+
+    .yonsaBg {
+      background: url(../../assets/images/heroBrand/yonsaMob.png);
+    }
+  }
+}
